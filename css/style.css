@@ -460,3 +460,9 @@ body{
         clip-path: polygon(0 0,100% 0,100% 100%,67% 97%,0 100%) ;
     }
 }
+@media (max-width:576px) {
+    .Hero{
+        flex-direction: column;
+    }
+    
+}
