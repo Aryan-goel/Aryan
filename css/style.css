@@ -447,4 +447,10 @@ body{
     section.about .about-me-img{
         height:30px ;
     }
+    section.services .card-wrapper{
+        grid-template-columns:repeat(2,1fr) ;
+    }
+    section.work .card-wrapper{
+        grid-template-columns:repeat(2,1fr) ;
+    }
 }
